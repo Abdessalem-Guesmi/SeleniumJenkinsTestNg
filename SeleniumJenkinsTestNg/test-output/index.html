@@ -162,7 +162,7 @@
                   </a> <!-- test1 -->
                   <span class="method-name">test1</span>
                   <div class="stack-trace">java.lang.AssertionError: the title contains not Test0 expected [true] but found [false]
-	at test.Test1.test1(Test1.java:18)
+	at test.Test1.test1(Test1.java:16)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -181,7 +181,7 @@
                   </a> <!-- test3 -->
                   <span class="method-name">test3</span>
                   <div class="stack-trace">org.testng.SkipException: test-case skipped
-	at test.Test1.test3(Test1.java:34)
+	at test.Test1.test3(Test1.java:29)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -275,26 +275,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test4')
+data.setCell(0, 1, 'test1')
 data.setCell(0, 2, 'test.Test1')
-data.setCell(0, 3, 8349);
+data.setCell(0, 3, 2915);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test1')
+data.setCell(1, 1, 'test3')
 data.setCell(1, 2, 'test.Test1')
-data.setCell(1, 3, 5266);
+data.setCell(1, 3, 2763);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test3')
+data.setCell(2, 1, 'test4')
 data.setCell(2, 2, 'test.Test1')
-data.setCell(2, 3, 3271);
+data.setCell(2, 3, 2431);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'test2')
 data.setCell(3, 2, 'test.Test1')
-data.setCell(3, 3, 2545);
+data.setCell(3, 3, 1755);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -329,51 +329,51 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test1</span>
-                <span class="method-start">62255 ms</span>
+                <span class="method-start">8042 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">recordFailure([TestResult name=test1 status=FAILURE method=Test1.test1()[pri:1, instance:test.Test1@15ff3e9e] outp...)</span>
-                <span class="method-start">67915 ms</span>
+                <span class="method-start">11300 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">69000 ms</span>
+                <span class="method-start">11732 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">85999 ms</span>
+                <span class="method-start">18051 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">recordFailure([TestResult name=test2 status=SUCCESS method=Test1.test2()[pri:2, instance:test.Test1@15ff3e9e] outp...)</span>
-                <span class="method-start">88547 ms</span>
+                <span class="method-start">19808 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">89721 ms</span>
+                <span class="method-start">19868 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test3</span>
-                <span class="method-start">104168 ms</span>
+                <span class="method-start">25147 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">recordFailure([TestResult name=test3 status=SKIP method=Test1.test3()[pri:3, instance:test.Test1@15ff3e9e] output=...)</span>
-                <span class="method-start">107442 ms</span>
+                <span class="method-start">27911 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">109399 ms</span>
+                <span class="method-start">27969 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test4</span>
-                <span class="method-start">123781 ms</span>
+                <span class="method-start">34877 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">recordFailure([TestResult name=test4 status=SUCCESS method=Test1.test4()[pri:4, instance:test.Test1@15ff3e9e] outp...)</span>
-                <span class="method-start">132132 ms</span>
+                <span class="method-start">37309 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">132715 ms</span>
+                <span class="method-start">37370 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -30,7 +30,7 @@ public class BaseTests {
 	private static ExtentHtmlReporter htmlReport;
 	private static ExtentReports extent;
 	private static ExtentTest extentTest;
-	protected GooglePage googlePage;
+	protected static GooglePage googlePage;
 
 	public static ExtentReports getInstance() {
 
